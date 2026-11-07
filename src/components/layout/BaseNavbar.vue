@@ -48,12 +48,11 @@ function cerrarMenu() {
                     @click="cerrarMenu"
                 >
                     <span
-                        v-if="claro"
                         role="img"
                         aria-label="ecofarma"
-                        class="block size-14 bg-primary [mask-image:url('/logo.webp')] [mask-size:contain] [mask-repeat:no-repeat] [mask-position:center]"
+                        class="block size-14 [mask-image:url('/logo.webp')] [mask-size:contain] [mask-repeat:no-repeat] [mask-position:center]"
+                        :class="claro ? 'bg-primary' : 'bg-surface'"
                     ></span>
-                    <img v-else src="/logo.webp" alt="ecofarma" class="h-14 w-auto object-contain" />
                 </a>
             </slot>
 

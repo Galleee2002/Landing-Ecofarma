@@ -21,13 +21,13 @@ const ids = enlaces.map(function (enlace) {
 function clasesEnlace(enlace, movil) {
     const alto = movil ? 'min-h-11' : 'min-h-10';
     const clases = [
-        'inline-flex items-center rounded-md px-3 py-2 font-semibold text-primary',
+        'inline-flex items-center rounded-md px-3 py-2 font-semibold text-surface',
         alto,
         'transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-current motion-reduce:transition-none',
-        'hover:bg-primary/10',
+        'hover:bg-surface/15',
     ];
     if (seccionActiva.value === enlace.id) {
-        clases.push('bg-primary-soft');
+        clases.push('bg-surface/20');
     }
     return clases.join(' ');
 }
@@ -60,12 +60,12 @@ onUnmounted(function () {
 });
 
 const claseCta = computed(function () {
-    return 'inline-flex min-h-10 items-center justify-center rounded-md bg-primary px-4 font-semibold text-surface shadow-sm hover:brightness-110 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary';
+    return 'inline-flex min-h-10 items-center justify-center rounded-md bg-surface px-4 font-semibold text-primary shadow-sm hover:brightness-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface';
 });
 </script>
 
 <template>
-    <BaseNavbar claro sticky logo-href="#inicio">
+    <BaseNavbar sticky logo-href="#inicio">
         <template #desktop-navigation>
             <a
                 v-for="enlace in enlaces"
