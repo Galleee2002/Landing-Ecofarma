@@ -1,7 +1,7 @@
 <script setup>
 import { urlApp } from '../../lib/appUrl';
 
-const hrefApp = urlApp('/donar');
+const hrefApp = urlApp('/recibir');
 
 const tiendas = [
     {

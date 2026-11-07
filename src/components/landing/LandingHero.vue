@@ -2,7 +2,7 @@
 import { ArrowRight } from '@lucide/vue';
 import { urlApp } from '../../lib/appUrl';
 
-const hrefApp = urlApp('/donar');
+const hrefApp = urlApp('/recibir');
 </script>
 
 <template>

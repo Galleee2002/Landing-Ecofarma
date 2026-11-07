@@ -12,7 +12,7 @@ const enlaces = [
 ];
 
 const seccionActiva = ref('inicio');
-const hrefApp = urlApp('/donar');
+const hrefApp = urlApp('/recibir');
 
 const ids = enlaces.map(function (enlace) {
     return enlace.id;
