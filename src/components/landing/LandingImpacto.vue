@@ -34,7 +34,7 @@ const ejes = [
                 Cada medicamento cuenta.<br class="hidden sm:block">
                 Cada acción transforma.
             </h2>
-            <p class="mx-auto mt-4 max-w-2xl text-sm text-pretty text-surface/80 sm:mt-5 sm:text-base">
+            <p class="mx-auto mt-4 max-w-2xl text-center text-sm text-pretty text-surface/80 sm:mt-5 sm:text-base">
                 Queremos que cada donación responsable genere un beneficio real: más acceso a la salud, menos desperdicio y una comunidad que se acompaña.
             </p>
 
@@ -42,14 +42,14 @@ const ejes = [
                 <li
                     v-for="eje in ejes"
                     :key="eje.numero"
-                    class="mx-auto flex w-full max-w-xs flex-col items-center md:max-w-none md:items-start md:text-left"
+                    class="mx-auto flex w-full max-w-xs flex-col items-center md:max-w-none"
                 >
                     <span class="mb-5 block h-px w-[85%] bg-surface/45" aria-hidden="true"></span>
                     <p class="font-heading text-4xl font-normal tracking-tighter text-surface/95 sm:text-5xl">
                         {{ eje.numero }}
                     </p>
                     <h3 class="mt-4 font-heading text-lg text-surface">{{ eje.titulo }}</h3>
-                    <p class="mt-2 text-sm text-pretty text-surface/75 sm:text-base">{{ eje.texto }}</p>
+                    <p class="mt-2 text-center text-sm text-pretty text-surface/75 sm:text-base">{{ eje.texto }}</p>
                 </li>
             </ul>
         </div>

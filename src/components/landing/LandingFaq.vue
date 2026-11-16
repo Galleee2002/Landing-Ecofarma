@@ -30,7 +30,7 @@ const preguntas = [
     },
     {
         id: 'costo',
-        pregunta: '¿Ecofarma tiene algún costo?',
+        pregunta: '¿ecofarma tiene algún costo?',
         respuesta: 'ecofarma promueve la donación solidaria de medicamentos. Los medicamentos ofrecidos mediante donaciones no tienen un precio de venta.',
     },
 ];
@@ -50,12 +50,12 @@ function alternar(id) {
     <section id="faq" class="scroll-mt-24 bg-surface" aria-labelledby="faq-titulo">
         <div class="mx-auto max-w-7xl px-5 py-14 sm:px-8 md:py-16 lg:py-20">
             <div class="grid gap-10 md:grid-cols-2 md:items-center md:gap-12 lg:gap-16">
-                <div class="relative max-w-md">
+                <div class="relative max-w-lg">
                     <h2 id="faq-titulo" class="font-heading text-3xl leading-tight text-balance sm:text-[2.5rem] sm:leading-[1.15]">
                         <span class="text-foreground">¿Tenés dudas?</span>
                         <span class="mt-1 block text-icon">Estamos para ayudarte.</span>
                     </h2>
-                    <p class="mt-5 max-w-sm text-pretty text-muted">
+                    <p class="mt-5 text-pretty text-muted">
                         Conocé mejor nuestra propuesta y cómo buscamos facilitar una donación responsable y segura.
                     </p>
                 </div>

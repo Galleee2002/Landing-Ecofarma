@@ -21,6 +21,7 @@ const claseEnlace = 'w-fit text-sm underline-offset-4 hover:underline focus-visi
 
 <template>
     <footer class="bg-primary text-surface">
+        <h2 class="sr-only">Pie de página</h2>
         <div class="mx-auto max-w-7xl px-5 py-10 sm:px-8 lg:py-12">
             <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-12 lg:gap-8">
                 <div class="self-center lg:col-span-4">

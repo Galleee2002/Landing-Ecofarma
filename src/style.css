@@ -30,7 +30,7 @@
     --color-warning: #ffaa00;
     --color-background: #eef4f6;
     --color-foreground: #1a1a1a;
-    --color-muted: #6c757d;
+    --color-muted: #4e5762;
     --color-surface: #ffffff;
     --color-line: #d3e0e6;
 
@@ -85,5 +85,9 @@
     h5 {
         font-size: var(--text-sm);
         line-height: var(--text-sm--line-height);
+    }
+
+    p {
+        text-align: justify;
     }
 }
