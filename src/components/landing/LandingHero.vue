@@ -21,7 +21,7 @@ const hrefApp = urlApp('/recibir');
                         :href="hrefApp"
                         class="inline-flex min-h-12 w-full items-center justify-center rounded-md bg-primary px-6 font-semibold text-surface shadow-sm hover:brightness-110 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary sm:w-auto"
                     >
-                        Descargar app
+                        Catálogo
                     </a>
                     <a
                         href="#impacto"

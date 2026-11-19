@@ -79,7 +79,7 @@ const claseCta = computed(function () {
 
         <template #actions>
             <a :href="hrefApp" :class="claseCta">
-                Descargar app
+                Catálogo
             </a>
         </template>
 
@@ -96,7 +96,7 @@ const claseCta = computed(function () {
 
         <template #mobile-actions>
             <a :href="hrefApp" :class="[claseCta, 'w-full']">
-                Descargar app
+                Catálogo
             </a>
         </template>
     </BaseNavbar>

@@ -7,8 +7,9 @@ const plataforma = [
     { etiqueta: 'Nuestra App', href: '#nuestra-app' },
     { etiqueta: 'Impacto', href: '#impacto' },
     { etiqueta: 'FAQ', href: '#faq' },
+    { etiqueta: 'Catálogo', href: urlApp('/recibir') },
     { etiqueta: 'Donar', href: urlApp('/donar') },
-    { etiqueta: 'Recibir', href: urlApp('/recibir') },
+    { etiqueta: 'Mi Perfil', href: urlApp('/perfil') },
 ];
 
 const legales = [

@@ -20,9 +20,9 @@ En `.env.local`:
 VITE_APP_URL=http://localhost:5173
 ```
 
-`VITE_APP_URL` es la URL de la app. Los CTA «Descargar app» e insignias de tienda apuntan a `/recibir`. El footer enlaza `/donar`, `/recibir`, `/terminos` y `/declaracion-jurada`.
+`VITE_APP_URL` es la URL de la app. Los CTA «Catálogo» e insignias de tienda apuntan a `/recibir`. El footer enlaza Catálogo (`/recibir`), Donar (`/donar`), Mi Perfil (`/perfil`), `/terminos` y `/declaracion-jurada`.
 
-En la app, el enlace «Inicio» usa `VITE_LANDING_URL` apuntando a esta landing.
+En la app, el navbar es Catálogo · Donar · Mi Perfil.
 
 ## Desarrollo
 
